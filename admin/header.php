@@ -4,7 +4,7 @@ define('blog', true);
 include "../Config.php";
 session_start();
 if (!isset($_SESSION['user_data'])) {
-   header("location:http://localhost/PHP-Blog-Project-main/login.php");
+   header("location:http://localhost/PHP-Blog-Project-main-2/login.php");
 }
 ?>
 <head>
